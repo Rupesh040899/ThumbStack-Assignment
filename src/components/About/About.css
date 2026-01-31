@@ -1,0 +1,150 @@
+/* ======================
+   WRAPPER
+   ====================== */
+.about-section {
+
+    width: 1544;
+height: 768;
+border-radius: 40px;
+
+}
+
+/* ======================
+   CARD
+   ====================== */
+.about-card {
+  background: #222222;
+  border-radius: 24px;
+  padding: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* ======================
+   LEFT CONTENT
+   ====================== */
+.about-content {
+  max-width: 520px;
+  z-index: 2;
+}
+
+.about-label {
+  font-size: 12px;
+  color: #ffffff;
+  opacity: 0.7;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+.about-title {
+  font-size: 48px;
+  line-height: 110%;
+  font-weight: 400;
+  color: #ecff5a;
+  margin-bottom: 24px;
+}
+
+.about-text {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ffffff;
+  max-width: 420px;
+  margin-bottom: 32px;
+}
+
+/* ======================
+   BUTTON
+   ====================== */
+.about-btn {
+  background: #ecff5a;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* ======================
+   RIGHT VISUAL (MAP)
+   ====================== */
+.about-visual {
+  position: absolute;
+  right: 48px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 420px;
+  height: 260px;
+
+  background-image: url("/europe-map.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  opacity: 0.9;
+}
+
+/* ======================
+   ROADMAP HEADING
+   ====================== */
+.roadmap-heading {
+  padding: 96px 90px 48px;
+  
+}
+
+.roadmap-heading h2 {
+
+font-family: Radio Canada Big;
+font-weight: 400px;
+font-style: Regular;
+font-size: 86px;
+text-align: center;
+opacity: 1;
+
+}
+
+.divider {
+  
+}
+
+/* ======================
+   MOBILE VIEW
+   ====================== */
+@media (max-width: 768px) {
+  .about-section {
+    padding: 48px 20px;
+  }
+
+  .about-card {
+    padding: 32px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .about-title {
+    font-size: 32px;
+  }
+
+  .about-text {
+    font-size: 14px;
+  }
+
+  .about-visual {
+    position: absolute;
+    right: -40px;
+    top: auto;
+    bottom: -20px;
+    width: 260px;
+    height: 180px;
+    opacity: 0.6;
+  }
+
+  .roadmap-heading {
+    padding: 48px 20px;
+  }
+
+  .roadmap-heading h2 {
+    font-size: 32px;
+  }
+}

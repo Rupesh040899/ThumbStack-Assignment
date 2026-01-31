@@ -1,0 +1,47 @@
+.ecosystem {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.ecosystem-divider {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.ecosystem-content {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+/* EXACT FIGMA TYPOGRAPHY */
+.ecosystem-heading {
+  font-family: "Radio Canada Big", sans-serif;
+  font-weight: 400;
+  font-size: 86px;
+  line-height: 110%;
+  letter-spacing: 0;
+  color: #0b0f1a;
+
+  /* FIGMA LAYOUT */
+  width: 1263px;
+  margin-left: 90px;
+
+  /* IMPORTANT */
+  white-space: normal;
+  word-break: normal;
+}
+
+@media (max-width: 768px) {
+  .ecosystem-content {
+    padding: 48px 20px;
+  }
+
+  .ecosystem-heading {
+    width: 100%;
+    margin-left: 0;
+
+    font-size: 36px;
+    line-height: 120%;
+  }
+}
